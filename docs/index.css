@@ -1,5 +1,9 @@
 html, body { height:100%; margin:0; }
 
+h1 {
+    font-size: 42;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     color: white;
@@ -17,10 +21,6 @@ body {
     /* asegura que ocupe toda la altura visible */
     text-align: center;
     /* centra el texto dentro */
-}
-
-h1 {
-    font-size: large;
 }
 
 @keyframes gradient {
@@ -63,11 +63,12 @@ button:hover {
 }
 
 #resultado {
+    font-size: 20;
     margin-top: 20px;
     padding: 20px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    font-size: medium;
+
 }
