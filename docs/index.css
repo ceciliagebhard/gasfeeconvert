@@ -1,7 +1,7 @@
 html, body { height:100%; margin:0; }
 
 h1 {
-    font-size: 42;
+    font-size: 2rem;
 }
 
 body {
@@ -63,7 +63,8 @@ button:hover {
 }
 
 #resultado {
-    font-size: 20;
+    font-size: 1.5rem; /* tamaño base para resultados */
+    font-weight: bold;
     margin-top: 20px;
     padding: 20px;
     border-radius: 15px;
