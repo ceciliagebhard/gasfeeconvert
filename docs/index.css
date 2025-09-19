@@ -2,6 +2,7 @@ html, body { height:100%; margin:0; }
 
 h1 {
     font-size: 4rem;
+    color: lightpink;
 }
 
 body {
