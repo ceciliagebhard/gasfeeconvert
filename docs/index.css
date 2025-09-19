@@ -19,6 +19,10 @@ body {
     /* centra el texto dentro */
 }
 
+h1 {
+    font-size: large;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -65,4 +69,5 @@ button:hover {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    font-size: medium;
 }
